@@ -139,9 +139,11 @@ html {
 	25% {
 		content: "A Full-Stack Developer";
 	}
+
 	50% {
 		content: "A Designer";
 	}
+
 	75% {
 		content: "A Techie";
 	}
@@ -286,7 +288,7 @@ section {
 }
 
 .about-text1 h3 span:nth-child(1):after,
-.about-text1 h3 span:nth-child(2):after, 
+.about-text1 h3 span:nth-child(2):after,
 .about-text1 h3 span:nth-child(3):after,
 .about-text1 h3 span:nth-child(4):after,
 .about-text1 h3 span:nth-child(5):after,
@@ -313,8 +315,7 @@ section {
 .about-text1 h3 span:nth-child(26):after,
 .about-text1 h3 span:nth-child(27):after,
 .about-text1 h3 span:nth-child(28):after,
-.about-text1 h3 span:nth-child(29):after
-{
+.about-text1 h3 span:nth-child(29):after {
 	content: "";
 	width: 6px;
 	height: 6px;
@@ -366,18 +367,23 @@ section {
 .cpp:after {
 	width: 90%;
 }
+
 .java:after {
 	width: 60%;
 }
+
 .css:after {
 	width: 70%;
 }
+
 .javascript:after {
 	width: 75%;
 }
+
 .html:after {
 	width: 70%;
 }
+
 .design:after {
 	width: 90%;
 }
@@ -675,6 +681,7 @@ footer {
 	.menu-toggler {
 		display: block;
 	}
+
 	.navbar-menu {
 		position: fixed;
 		height: 100%;
@@ -709,6 +716,7 @@ footer {
 	.menu-toggler.active span:nth-child(2) {
 		opacity: 0;
 	}
+
 	.menu-toggler.active span:nth-child(3) {
 		transform: rotate(45deg);
 		bottom: 14px;
